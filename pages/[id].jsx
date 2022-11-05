@@ -18,6 +18,7 @@ import {
   import { ArrowLeftIcon } from "@heroicons/react/solid";
   import Comment from "../Components/Comment";
   import Head from "next/head";
+  import Login from "../Components/Login";
   
   function PostPage({ trendingResults, followResults, providers }) {
     const { data: session } = useSession();
@@ -117,3 +118,4 @@ import {
     };
   }
     
+  
